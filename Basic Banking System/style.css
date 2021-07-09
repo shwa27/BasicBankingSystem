@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+#contactus{
+    background: url("images/contus.png") no-repeat center fixed;     
+    background-size: cover;
+}
+
+#transaction, #transferto {
+    background: url("images/paybg.png") no-repeat center fixed;
+    background-size: cover;
+}
+
+#about {
+    background: url("images/gandg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body.home {
+    
+    background: url("images/bgp.png") no-repeat center fixed;     
+    background-size: cover;
+}
+
+header {
+    padding: 10px;   
+    //background-color: black ;
+}
+
+nav a{
+    text-decoration: none;
+    text-align:end;
+    padding: 10px;
+    float: right;
+    color: white;
+    font-size: 120%;
+}
+
+nav{ 
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(245, 245, 163);
+}
+
+header span
+{
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+
+#wel{
+    margin-top: 40px;
+    margin-left:150px;
+    border-radius: 8%;
+}
+
+#gg{
+    margin-left: 10px;
+    color: ghostwhite;
+}
+
+
+
+#welcome{
+    font-size: 300%;
+    color: whitesmoke;
+    font-weight:500;
+}
+
+#subline {
+    font-size: 150%;
+    font-style: oblique;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+#option1 {
+    border-radius: 8%;
+    font-size: 160%;
+    font-weight: 900;
+    margin-left: 10%;
+    margin-top: 5%;
+    //background-color: cornflowerblue;
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    font-style: oblique;
+}
+#option2 {
+    border-radius: 8%;
+    font-size: 160%;
+    font-weight: 900;
+    margin-left: 4%;
+    margin-top: 5%;
+    //background-color: rgb(186, 226, 224);
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    font-style: oblique;
+}
+
+#option3 {
+    border-radius: 8%;
+    font-size: 160%;
+    font-weight: 900;
+    margin-left: 4%;
+    margin-top: 5%;
+    //background-color: rgb(186, 226, 224);
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: ghostwhite;
+    font-style: oblique;
+}
+
+#text{
+    font-size: 60%;
+    margin-left: 10%;
+}
+#text3{
+    font-size: 60%;
+}
+img{
+    border-radius: 50%;
+    margin-left: 10%;
+   
+}
+footer {
+    background-color: darkolivegreen;
+    position: fixed;
+    width: 40%;
+    bottom: 0px;
+}
+#foot {
+    text-align: left;
+    color: white;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+#customers{
+    margin-left: 15%;
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 2%;
+}
+
+#customers th,#customers td{
+    background-color: rgba(237, 240, 223, 0.945);
+    border: 1px solid rgb(14, 13, 13);
+    text-align: center;
+  
+}
+
+#customers tr:nth-child(even){background-color: white;}
+
+#customers tr:hover {background-color: rgb(218, 240, 121) ;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+#customers td {
+    padding-top: 6px;
+  padding-bottom:2px;
+}
+
+#texttransfer{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: -40px;
+    font-size: 50px;
+    font-weight:800;
+    color: lightpink;
+}
+
+#trans {
+    margin-left: 37%;
+    margin-top: 3%;
+    margin-bottom: -10px;
+    font-size: 50px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+#transactbutton{
+    background-color: rgba(237, 240, 223, 0.945);
+    padding: 5px 70px;
+    font-size: 16px;
+}
+
+#labdiv{
+
+    margin-left: 15%;
+    margin-top: 3%;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+#sel{
+    width:82%;
+    font-weight: 500;
+    font-size: 70%;
+    background-color: rgba(228, 236, 184, 0.945);
+}
+
+#transferbutton{
+    margin-left: 38%;
+    font-weight: 500;
+    font-size: 70%;
+    background-color: rgb(24, 31, 124);
+    color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#field{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+    background-color: lightyellow;
+}
+
+#con {
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: x-large;
+    
+}
+
+#txt{
+    font-size:large;
+    margin-left: 5%;
+    margin-right: 10%;
+    width:50%;
+}
+
+#button{
+    margin-left: 25%;
+    font-weight: 500;
+    font-size: 70%;
+    background-color: rgb(24, 31, 124);
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#abouthead{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size:50px;
+    font-weight: 800;
+    color: darkgreen;
+}
+
+#content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size:25px;
+    font-weight: 400;
+    color: black;
+}
+
+#boxx{
+    margin-left: 5%;
+    margin-right: 40%;
+    margin-bottom: 10%;
+    background-color: ivory ;
+}
